@@ -24,3 +24,24 @@ For a complete list of available schematics (such as `components`, `directives`,
 ng generate --help
 
 ```
+
+You must cd into the root directory where your angular workspace is located. For me it is:
+
+```
+cd /Users/ajchadha/IdeaProjects/src/AdamProjectTest/Adam-Project
+```
+
+Run to download all necessary packages
+```
+npm install
+```
+
+Then run to build your project
+```
+ng build
+```
+
+And now deploy on localhost
+```
+ng serve
+```
