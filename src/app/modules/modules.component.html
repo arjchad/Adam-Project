@@ -1,0 +1,36 @@
+<div class="modules-container">
+  <!-- Scrollable Container on the Left -->
+  <div class="modules-sidebar">
+<!--    <div class="module-box">1</div>-->
+<!--    <div class="module-box">2</div>-->
+<!--    <div class="module-box">3</div>-->
+<!--    <div class="module-box">4</div>-->
+<!--    <div class="module-box">5</div>-->
+<!--    <div class="module-box">6</div>-->
+<!--    <div class="module-box">7</div>-->
+<!--    <div class="module-box">8</div>-->
+<!--    <div class="module-box">9</div>-->
+<!--    <div class="module-box">10</div>-->
+<!--    <div class="module-box">11</div>-->
+<!--    <div class="module-box">12</div>-->
+<!--    <div class="module-box">13</div>-->
+<!--    <div class="module-box">14</div>-->
+<!--    <div class="module-box">15</div>-->
+<!--    <div class="module-box">16</div>-->
+<!--    <div class="module-box">17</div>-->
+<!--    <div class="module-box">18</div>-->
+<!--    <div class="module-box">19</div>-->
+<!--    <div class="module-box">20</div>-->
+    <div *ngFor="let module of modules" class="module-box">
+      {{ module }}
+    </div>
+  </div>
+
+  <!-- Main Content Area for Module -->
+  <div class="module-content">
+    <h2>Module 1</h2>
+    <div class="video-placeholder">
+      <button class="play-button">▶</button>
+    </div>
+  </div>
+</div>

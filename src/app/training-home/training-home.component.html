@@ -1,0 +1,67 @@
+<div class="training-home-container">
+  <!-- General Info Section -->
+  <section class="general-info">
+    <h2>General Info</h2>
+    <p>Welcome to the Training Home! Here you can find information about available training sessions, schedules, and more.</p>
+  </section>
+
+  <!-- Leadership Section -->
+  <section class="leadership">
+    <h2>Leadership</h2>
+    <ul>
+      <li>John Doe - Manager</li>
+      <li>Jane Smith - Training Lead</li>
+      <li>Mark Lee - Technical Specialist</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: training&#64;company.com</p>
+    <p>Phone: (123) 456-7890</p>
+  </section>
+
+  <!-- Dropdown Tool -->
+  <section class="dropdown-tool">
+    <h2>Dropdown Tool</h2>
+    <select>
+      <option value="module1">Module 1</option>
+      <option value="module2">Module 2</option>
+      <option value="module3">Module 3</option>
+    </select>
+  </section>
+
+  <!-- Training Modules -->
+  <section class="training-modules">
+    <h2>Training Modules</h2>
+    <button>Module 1</button>
+    <button>Module 2</button>
+    <button>Module 3</button>
+  </section>
+
+  <!-- Tabs for Videos and URLs -->
+  <section class="tabs">
+    <div class="tab-buttons">
+      <button (click)="showTab('videos')" [class.active]="activeTab === 'videos'">Videos</button>
+      <button (click)="showTab('urls')" [class.active]="activeTab === 'urls'">URLs</button>
+    </div>
+
+    <div class="tab-content">
+      <div *ngIf="activeTab === 'videos'">
+        <h3>Videos</h3>
+        <ul>
+          <li><a href="https://example.com/video1" target="_blank">Training Video 1</a></li>
+          <li><a href="https://example.com/video2" target="_blank">Training Video 2</a></li>
+        </ul>
+      </div>
+      <div *ngIf="activeTab === 'urls'">
+        <h3>URLs</h3>
+        <ul>
+          <li><a href="https://example.com/resource1" target="_blank">Resource 1</a></li>
+          <li><a href="https://example.com/resource2" target="_blank">Resource 2</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>

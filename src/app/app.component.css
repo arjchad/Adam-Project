@@ -1,0 +1,187 @@
+/* Header Styles */
+header {
+  background-color: #063863;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box; /* Ensure padding is included in width calculations */
+  overflow: hidden; /* Prevent content from overflowing */
+  width: 100%;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header .search-bar {
+  flex-shrink: 1; /* Allow the search bar to shrink if necessary */
+  max-width: 250px; /* Set a maximum width for the search bar */
+  width: 100%;
+  margin-right: 10px;
+}
+
+header .search-bar input {
+  width: 100%; /* Ensure the input fits within the container */
+  padding: 8px 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Header Layout */
+.header-title {
+  flex-grow: 1;
+  margin-right: 20px; /* Add space between title and right section */
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add spacing between elements */
+}
+
+/* Header Left Section */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between logo and title */
+}
+
+/* Delta Logo */
+.delta-logo {
+  width: 40px; /* Adjust size as needed */
+  height: auto;
+}
+
+/* Icons Styles */
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between icons */
+}
+
+.header-icons .icon-calendar,
+.header-icons .icon-info,
+.header-icons .icon-settings {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-color: white; /* Placeholder background */
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.header-icons .icon-calendar {
+  background-image: url('/assets/icons/calendar.png'); /* Path to your calendar image */
+}
+
+.header-icons .icon-info {
+  background-image: url('/assets/icons/clock.png'); /* Path to your info image */
+}
+
+.header-icons .icon-settings {
+  background-image: url('/assets/icons/settings.png'); /* Path to your settings image */
+}
+
+
+.header-icons .icon-calendar:hover,
+.header-icons .icon-info:hover,
+.header-icons .icon-settings:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  background-color: #f8f8f8; /* Change to a lighter shade on hover */
+}
+
+
+/* Navigation Tabs */
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8; /* Delta red */
+  padding: 20px 10px; /* Increased padding for more space */
+  gap: 20px; /* Space between tabs */
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-tabs .tab {
+  background-color: #063863; /* Delta dark blue */
+  color: white;
+  border: none;
+  padding: 20px 40px; /* Increased padding for larger buttons */
+  font-size: 22px; /* Larger font size */
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+  flex: 1; /* Make tabs span equally */
+  text-align: center;
+}
+
+.nav-tabs .tab:hover {
+  background-color: #005a9e;
+}
+
+.logo-link:hover .delta-logo {
+  transform: scale(1.2); /* Slight zoom effect */
+  filter: hue-rotate(-120deg) saturate(90);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-tabs .tab.active {
+  background-color: #9C0000;
+  font-weight: bold;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; /* Include padding and border in width/height calculations */
+}
+
+#app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+main {
+  flex: 1; /* Make main content take up the remaining space */
+}
+
+footer {
+  background-color: #9C0000; /* Updated footer color */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+footer a {
+  color: white; /* Ensure links are readable on the red background */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  height: 20px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.red-line {
+  height: 15px;
+  background-color: #9C0000; /* Delta red */
+  width: 100%;
+}

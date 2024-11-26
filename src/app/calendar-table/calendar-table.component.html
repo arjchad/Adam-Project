@@ -1,0 +1,18 @@
+<table>
+  <thead>
+  <tr>
+    <th>Name (Job Title)</th>
+    <th>Date</th>
+    <th>Nickname</th>
+    <th>Employee</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let event of events">
+    <td>{{ event.name }}</td>
+    <td>{{ event.date }}</td>
+    <td><!-- Nickname data --></td>
+    <td><input type="checkbox" /></td>
+  </tr>
+  </tbody>
+</table>

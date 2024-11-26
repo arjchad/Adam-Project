@@ -1,0 +1,82 @@
+<div class="overall-home">
+  <!-- Content Wrapper -->
+  <div class="content-wrapper">
+    <!-- Left Sidebar -->
+    <div class="left-sidebar">
+      <div class="vertical-tab-bar">
+        <div class="icon icon-1" title="user"></div>
+        <div class="icon icon-2" title="hamburger"></div>
+        <div class="icon icon-3" title="globe"></div>
+        <div class="icon icon-4" title="settings"></div>
+      </div>
+    </div>
+
+    <!-- Center Content Area -->
+    <div class="center-content">
+      <!-- Main Content Area -->
+      <main class="main-content">
+        <!-- Main Sections -->
+        <div class="main-sections">
+          <!-- Left Section: Calendar Table -->
+          <div class="left-section">
+            <h2>Planned Events</h2>
+            <app-calendar-table></app-calendar-table>
+          </div>
+
+          <!-- Right Section: Announcement Block -->
+          <div class="right-section">
+            <div class="announcement-container">
+              <h2>Announcements</h2>
+              <div class="announcement-content">
+                <!-- Individual Announcement Posts -->
+                <div class="announcement-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                <div class="announcement-post">Suspendisse potenti. Vivamus mollis quam ac velit convallis tincidunt.</div>
+                <div class="announcement-post">Praesent sodales felis ut sapien condimentum, in congue eros facilisis.</div>
+                <div class="announcement-post">Morbi dignissim libero vel tortor consequat, eget luctus nunc faucibus.</div>
+                <div class="announcement-post">Cras id magna vel dolor vehicula malesuada non ut velit.</div>
+                <div class="announcement-post">Nullam feugiat dui nec eros porttitor, a fermentum nulla faucibus.</div>
+                <div class="announcement-post">Curabitur tempus odio sit amet sapien tincidunt, vitae blandit ligula dignissim.</div>
+                <div class="announcement-post">Quisque viverra mauris non nunc gravida, nec scelerisque massa efficitur.</div>
+                <div class="announcement-post">Integer consectetur elit id orci aliquam, at varius erat vestibulum.</div>
+                <div class="announcement-post">Donec at erat ac eros scelerisque luctus.</div>
+                <div class="announcement-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                <div class="announcement-post">Suspendisse potenti. Vivamus mollis quam ac velit convallis tincidunt.</div>
+                <div class="announcement-post">Praesent sodales felis ut sapien condimentum, in congue eros facilisis.</div>
+                <div class="announcement-post">Morbi dignissim libero vel tortor consequat, eget luctus nunc faucibus.</div>
+                <div class="announcement-post">Cras id magna vel dolor vehicula malesuada non ut velit.</div>
+                <div class="announcement-post">Nullam feugiat dui nec eros porttitor, a fermentum nulla faucibus.</div>
+                <div class="announcement-post">Curabitur tempus odio sit amet sapien tincidunt, vitae blandit ligula dignissim.</div>
+                <div class="announcement-post">Quisque viverra mauris non nunc gravida, nec scelerisque massa efficitur.</div>
+                <div class="announcement-post">Integer consectetur elit id orci aliquam, at varius erat vestibulum.</div>
+                <div class="announcement-post">Donec at erat ac eros scelerisque luctus.</div>
+                <div class="announcement-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                <div class="announcement-post">Suspendisse potenti. Vivamus mollis quam ac velit convallis tincidunt.</div>
+                <div class="announcement-post">Praesent sodales felis ut sapien condimentum, in congue eros facilisis.</div>
+                <div class="announcement-post">Morbi dignissim libero vel tortor consequat, eget luctus nunc faucibus.</div>
+                <div class="announcement-post">Cras id magna vel dolor vehicula malesuada non ut velit.</div>
+                <div class="announcement-post">Nullam feugiat dui nec eros porttitor, a fermentum nulla faucibus.</div>
+                <div class="announcement-post">Curabitur tempus odio sit amet sapien tincidunt, vitae blandit ligula dignissim.</div>
+                <div class="announcement-post">Quisque viverra mauris non nunc gravida, nec scelerisque massa efficitur.</div>
+                <div class="announcement-post">Integer consectetur elit id orci aliquam, at varius erat vestibulum.</div>
+                <div class="announcement-post">Donec at erat ac eros scelerisque luctus.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Bottom Toolbar -->
+      <section *ngIf="!isModulesPage" class="bottom-toolbar">
+        <button class="toolbar-button" routerLink="/documents">Reference Documents</button>
+        <button class="toolbar-button" routerLink="/modules">Modules</button>
+        <button class="toolbar-button" routerLink="/videos">Videos</button>
+      </section>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="right-sidebar">
+      <p>SharePoint Links Placeholder</p>
+      <img src="/assets/icons/delta_r.png" alt="Delta R" class="sharepoint-image" />
+    </div>
+  </div>
+</div>

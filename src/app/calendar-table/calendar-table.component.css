@@ -1,0 +1,33 @@
+.calendar-table {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Calendar Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+thead {
+  background-color: #003268; /* Header background color */
+  color: white;
+}
+
+tbody {
+  max-height: 500px; /* Approximate height for 15 rows */
+  overflow-y: auto; /* Add vertical scroll if necessary */
+  display: block; /* Required for scroll */
+}
+
+tr {
+  display: table; /* Required to align columns */
+  width: 100%; /* Ensure rows align with header */
+  table-layout: fixed; /* Consistent column widths */
+}

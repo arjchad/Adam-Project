@@ -1,12 +1,19 @@
+// app.component.ts
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
+import { SBarComponent } from './s-bar/s-bar.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [
+    RouterOutlet,
+    SBarComponent,
+    RouterLink,
+    RouterLinkActive,
+    // Remove other component imports unless used directly in app.component.html
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
-  title = 'adam-project';
-}
+export class AppComponent {}
