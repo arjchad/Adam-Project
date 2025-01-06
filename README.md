@@ -1,11 +1,12 @@
-# Employee Training Portal Frontend
+# Sailor
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Angular](https://img.shields.io/badge/angular-14.2.0-red.svg)
 ![TypeScript](https://img.shields.io/badge/typescript-4.5.4-blue.svg)
-![CI](https://github.com/your-username/employee-training-portal-frontend/workflows/CI/badge.svg)
 
 ## Table of Contents
+Welcome aboard, sailor!  This project provides a modern onboarding portal for new hires. It includes training modules, resources, and an intuitive interface to ensure everyone settles in smoothly.
+
 
 - [Overview](#overview)
 - [Features](#features)
@@ -24,7 +25,7 @@
 
 ## Overview
 
-The **Employee Training Portal Frontend** is a modern, modular frontend application designed to streamline the onboarding and continuous training processes for organizations of all sizes. Built with scalability and user experience in mind, this portal provides a comprehensive interface for onboarding new hires, delivering training modules, and accessing essential resources and information.
+**Sailor** is a modern, modular frontend application designed to streamline the onboarding and continuous training processes for organizations of all sizes. Built with scalability and user experience in mind, this portal provides a comprehensive interface for onboarding new hires, delivering training modules, and accessing essential resources and information.
 
 ## Features
 
@@ -39,8 +40,6 @@ The **Employee Training Portal Frontend** is a modern, modular frontend applicat
 - **Automatic Reload**: The application will automatically reload whenever you modify any of the source files, enhancing development efficiency.
 
 ## Architecture
-
-![Architecture Diagram](docs/architecture_diagram.png)
 
 1. **Frontend**: Built with Angular, providing a dynamic and responsive user interface.
 2. **Backend Integration**: Communicates with RESTful APIs to handle data operations.
@@ -171,8 +170,9 @@ This project is licensed under the [MIT License](LICENSE).
 **AJ Chadha** - [ArjanChadha@Gmail.com](mailto:ArjanChadha@Gmail.com)  
 LinkedIn: [https://www.linkedin.com/in/ajchadha](https://www.linkedin.com/in/ajchadha)  
 
-Project Link: [https://github.com/arjchad/employee-training-portal-frontend](https://github.com/arjchad/employee-training-portal-frontend)
+Project Link: [https://github.com/arjchad/Adam-Project](https://github.com/arjchad/Adam-Project)
 
 ---
 
 Made with ambition 🤩 by AJ Chadha
+test
