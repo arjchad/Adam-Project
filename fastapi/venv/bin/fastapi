@@ -1,4 +1,4 @@
-#!/Users/ajchadha/IdeaProjects/src/Sailor/adam-project/fastapi/venv/bin/python3.12
+#!/Users/ajchadha/IdeaProjects/src/SailorDemo/Sailor/fastapi/venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys

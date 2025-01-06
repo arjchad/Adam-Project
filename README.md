@@ -170,9 +170,8 @@ This project is licensed under the [MIT License](LICENSE).
 **AJ Chadha** - [ArjanChadha@Gmail.com](mailto:ArjanChadha@Gmail.com)  
 LinkedIn: [https://www.linkedin.com/in/ajchadha](https://www.linkedin.com/in/ajchadha)  
 
-Project Link: [https://github.com/arjchad/Adam-Project](https://github.com/arjchad/Adam-Project)
+Project Link: [https://github.com/arjchad/Sailor](https://github.com/arjchad/Sailor)
 
 ---
 
 Made with ambition 🤩 by AJ Chadha
-test
